@@ -17,6 +17,8 @@
 		3A1BC9F51F39BC5400D785B8 /* TaskLoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BC9F41F39BC5400D785B8 /* TaskLoadingManager.m */; };
 		3A1BC9FC1F39BD8500D785B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BC9FB1F39BD8500D785B8 /* ViewController.m */; };
 		3A1BC9FF1F39BF4B00D785B8 /* TaskLoadListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BC9FE1F39BF4B00D785B8 /* TaskLoadListTableViewCell.m */; };
+		3A1BCA021F39BFB800D785B8 /* TaskLoadingListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BCA011F39BFB800D785B8 /* TaskLoadingListCell.m */; };
+		3A1BCA051F39BFEF00D785B8 /* TaskLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BCA041F39BFEF00D785B8 /* TaskLoadModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		3A1BC9FB1F39BD8500D785B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3A1BC9FD1F39BF4B00D785B8 /* TaskLoadListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskLoadListTableViewCell.h; sourceTree = "<group>"; };
 		3A1BC9FE1F39BF4B00D785B8 /* TaskLoadListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskLoadListTableViewCell.m; sourceTree = "<group>"; };
+		3A1BCA001F39BFB800D785B8 /* TaskLoadingListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskLoadingListCell.h; sourceTree = "<group>"; };
+		3A1BCA011F39BFB800D785B8 /* TaskLoadingListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskLoadingListCell.m; sourceTree = "<group>"; };
+		3A1BCA031F39BFEF00D785B8 /* TaskLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskLoadModel.h; sourceTree = "<group>"; };
+		3A1BCA041F39BFEF00D785B8 /* TaskLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskLoadModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,8 @@
 			children = (
 				3A1BC9F31F39BC5400D785B8 /* TaskLoadingManager.h */,
 				3A1BC9F41F39BC5400D785B8 /* TaskLoadingManager.m */,
+				3A1BCA031F39BFEF00D785B8 /* TaskLoadModel.h */,
+				3A1BCA041F39BFEF00D785B8 /* TaskLoadModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +178,8 @@
 			children = (
 				3A1BC9FD1F39BF4B00D785B8 /* TaskLoadListTableViewCell.h */,
 				3A1BC9FE1F39BF4B00D785B8 /* TaskLoadListTableViewCell.m */,
+				3A1BCA001F39BFB800D785B8 /* TaskLoadingListCell.h */,
+				3A1BCA011F39BFB800D785B8 /* TaskLoadingListCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -310,11 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1BCA051F39BFEF00D785B8 /* TaskLoadModel.m in Sources */,
 				3A1BC9FC1F39BD8500D785B8 /* ViewController.m in Sources */,
 				3A1BC9BD1F39B9E900D785B8 /* AppDelegate.m in Sources */,
 				3A1BC9BA1F39B9E900D785B8 /* main.m in Sources */,
 				3A1BC9FF1F39BF4B00D785B8 /* TaskLoadListTableViewCell.m in Sources */,
 				3A1BC9F51F39BC5400D785B8 /* TaskLoadingManager.m in Sources */,
+				3A1BCA021F39BFB800D785B8 /* TaskLoadingListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
