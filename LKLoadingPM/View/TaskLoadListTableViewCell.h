@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TaskLoadListTableViewCell.h
 //  LKLoadingPM
 //
 //  Created by 杨丰林 on 2017/8/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TaskLoadListTableViewCell : UITableViewCell
 
 @end
-
